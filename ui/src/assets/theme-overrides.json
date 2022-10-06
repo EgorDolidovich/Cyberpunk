@@ -1,0 +1,13 @@
+{
+  "common": {
+    "textColor1": "#D84048FF",
+    "textColorBase": "#D84048FF",
+    "textColor2": "#D84048FF"
+  },
+  "Layout": {
+    "color": "",
+    "headerColor": "",
+    "footerColor": "",
+    "siderColor": ""
+  }
+}
