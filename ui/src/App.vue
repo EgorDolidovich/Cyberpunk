@@ -2,7 +2,7 @@
   <n-config-provider :theme="darkTheme" :theme-overrides="ThemeOverrides">
     <n-theme-editor>
       <n-layout position="absolute" class="layout-gradient-bg">
-        <n-layout-header style="min-height: 5vh; padding: 0 24px; padding-top: 10px">
+        <n-layout-header style="padding: 0 24px; padding-top: 18px">
           <game-nav />
         </n-layout-header>
         <n-layout has-sider position="absolute" style="top: 64px; bottom: 64px">
@@ -10,6 +10,7 @@
             Handian Bridge
           </n-layout-sider>
           <n-layout content-style="padding: 24px;">
+            <herocard />
             <n-h2>Pingshan Road</n-h2>
             <n-h2>Pingshan Road</n-h2>
             <n-h2>Pingshan Road</n-h2>
@@ -45,6 +46,9 @@ import {
 import ThemeOverrides from "@/assets/theme-overrides.json"
 
 import GameNav from "@/components/Nav.vue"
+
+import HeroCard from "@/components/Herocard.vue"
+import Herocard from "./components/Herocard.vue"
 </script>
 
 <style>
