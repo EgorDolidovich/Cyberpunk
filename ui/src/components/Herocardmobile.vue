@@ -36,6 +36,7 @@
      flex-direction: column;
      height: 317px;
      width: 340px;
+     margin-bottom: 20px;
 }
 
 .description-place-mobile {

@@ -6,16 +6,34 @@
           <game-nav />
         </n-layout-header>
         <n-layout has-sider position="absolute" style="top: 75px; bottom: 64px;">
-          <n-layout-sider style="width: 3vw;">
-          </n-layout-sider>
-          <n-layout content-style="padding: 24px;">
+          <n-layout content-style="padding: 0px;">
             <herocard />
             <n-h2>Hero card mobile</n-h2>
             <GameNavMobile />
             <HerocardMobile />
+
+            <CharacterMobile />
+
+            <HeroInfo />
+
+            
+
+            <InfoBars />
             
             <BlockTitle />
-            <PlusMinusSkills/>
+
+            <PlusMinusAbility/>
+            <PlusMinusAbility/>
+            <PlusMinusAbility/>
+
+            <PlusMinusSkill />
+            <PlusMinusSkill />
+            <PlusMinusSkill />
+
+            <ImplantString />
+            <ImplantString />
+            <ImplantString />
+            
             <n-h2>Pingshan Road</n-h2>
             <n-h2>Pingshan Road</n-h2>
             <n-h2>Pingshan Road</n-h2>
@@ -28,9 +46,7 @@
             <n-h2>Pingshan Road</n-h2>
             <n-h2>Pingshan Road</n-h2>
           </n-layout>
-          <n-layout-sider style="width: 3vw;">
-            хуй
-          </n-layout-sider>
+          
         </n-layout>
         <n-layout-footer bordered position="absolute" style="height: 30px;">
           <Footerdesktop />
@@ -59,11 +75,22 @@ import HerocardMobile from "@/components/Herocardmobile.vue"
 
 import GameNavMobile from "@/components/Nav mobile.vue"
 
+import CharacterMobile from "@/components/Character mobile.vue"
+
+import HeroInfo from "@/components/hero info.vue"
+
+import InfoBars from "@/components/Info bars.vue"
+
 import BlockTitle from "@/components/Block title.vue"
 
-import PlusMinusSkills from "@/components/Plus minus skills.vue"
+import PlusMinusAbility from "@/components/Plus minus ability.vue"
+
+import PlusMinusSkill from "@/components/Plus minus skill.vue"
+
+import ImplantString from "@/components/Implant string.vue"
 
 import Footerdesktop from "@/components/Footer.vue"
+
 </script>
 
 <style>
